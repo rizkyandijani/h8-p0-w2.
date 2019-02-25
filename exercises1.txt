@@ -1,0 +1,58 @@
+
+1. 2nd newton law
+read and save mass equals 600
+read and save acceleration equals 2 
+read save force equals 0
+
+mass times acceleration equals to force
+display force
+
+2. kabisat year
+
+read and save year to 0
+read and remainder4 to 0
+read and remainder100 to 0
+read and remainder400 to 0
+
+input year
+
+remainder4 equals to year mod 4
+remainder100 equals to year mod 100
+remainder400 equals to year mod 400
+ 
+if remainder4 equals 0 and remainder100 not equals to 0
+	display kabisat
+else if remainder4 equals to 0 and remainder100 equals to 0 and remainder400 equals to 0
+	display kabisat
+else display "not kabisat"
+
+3. Laundry Day
+
+read and save start laundry to 20
+read and save clothes to 0
+
+
+if clothes equals to start laundry
+	display machine start 
+	else
+	clothes ++  
+
+4. periksa kuku
+
+	read and save siswa equals to 0
+	read and save "kuku pendek" equals to true
+	read and save "kuku panjang" equals to false
+	read and save kuku equals to 0
+	
+	input kuku
+	
+	if input !== " "
+	siswa + 1
+	else display check kuku
+		while siswa less than 40
+			if siswa equals to true
+			display "pujian"
+			else  
+			display "hukuman"
+
+ 
